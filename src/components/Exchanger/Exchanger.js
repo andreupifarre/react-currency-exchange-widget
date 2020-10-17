@@ -10,7 +10,7 @@ import './Exchanger.scss';
 
 export const DEFAULT_FROM_CURRENCY = 'GBP';
 export const DEFAULT_TO_CURRENCY = 'EUR';
-export const FETCH_INTERVAL = 10000000; //10000;
+export const FETCH_INTERVAL = 10000;
 
 const Exchanger = () => {
   const balances = useBalances();
