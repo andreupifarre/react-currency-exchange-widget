@@ -96,7 +96,7 @@ const Exchanger = () => {
     setCurrencies(newCurrencies);
     setFromAmount();
     setToAmount();
-    setIsExceeding(false);
+    setIsExceeding(true);
   };
 
   useEffect(() => {

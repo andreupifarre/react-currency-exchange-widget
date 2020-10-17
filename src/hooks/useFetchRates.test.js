@@ -13,13 +13,6 @@ const mockFetch = (response) =>
     );
 
 describe('useFetchRates', () => {
-  it('should not make a request when fromCurrency is undefined', async () => {
-    const spy = jest.spyOn(global, 'fetch');
-    renderHook(() => useFetchRates());
-
-    expect(spy).not.toBeCalled();
-  });
-
   it('should set results array when term is matching a search', async () => {
     const mockSuccessResponse = {
       base: 'GBP',
