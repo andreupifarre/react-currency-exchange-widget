@@ -1,0 +1,29 @@
+{
+  "extends": [
+    "eslint:recommended",
+    "plugin:react/recommended",
+    "plugin:cypress/recommended"
+  ],
+  "parserOptions": {
+    "ecmaVersion": 9,
+    "sourceType": "module",
+    "ecmaFeatures": {
+      "jsx": true
+    }
+  },
+  "env": {
+    "browser": true,
+    "jest": true
+  },
+  "plugins": ["react", "cypress"],
+  "settings": {
+    "react": {
+      "version": "^16.12.0"
+    }
+  },
+  "rules": {
+    "cypress/no-unnecessary-waiting": "off",
+    "no-undef": "off",
+    "no-unused-vars": "off"
+  }
+}
