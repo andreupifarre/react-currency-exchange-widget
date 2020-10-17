@@ -1,0 +1,48 @@
+.exchanger-bar {
+  height: 42px;
+  transform: translateY(-50%);
+  margin-left: -20px;
+  margin-right: -20px;
+  display: flex;
+  flex: 1;
+  align-items: center;
+  justify-content: space-between;
+
+  &__button {
+    height: inherit;
+    border-radius: 25px;
+    border: 0;
+    border: 2px solid #f3f4f5;
+    min-width: 42px;
+    background-color: white;
+    color: #0075eb;
+    font-size: 19px;
+    padding: 0 17px;
+    line-height: 19px;
+    cursor: pointer;
+    background-repeat: no-repeat;
+    background-size: 18px;
+    background-position: 10px center;
+
+    &--swap {
+      background-image: url(/img/swap-icon.png);
+    }
+
+    &--rates {
+      background-image: url(/img/rates-icon.png);
+      padding-left: 40px;
+    }
+
+    &:hover {
+      border-color: #0075eb;
+    }
+
+    &:focus {
+      outline: 0;
+    }
+  }
+
+  &__empty-action {
+    width: 42px;
+  }
+}

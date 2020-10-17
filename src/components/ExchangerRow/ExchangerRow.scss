@@ -1,0 +1,42 @@
+.exchanger-row {
+  margin: 0 -34px;
+  padding: 60px 34px;
+
+  &--alt {
+    background-color: white;
+  }
+
+  &__line {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    min-height: 38px;
+  }
+
+  &__balance {
+    font-size: 17px;
+    margin-right: 20px;
+    color: #aaa;
+  }
+
+  &__fee {
+    font-size: 17px;
+    flex: 1;
+    text-align: right;
+    color: #aaa;
+  }
+
+  &__amount {
+    background-color: transparent;
+    border: 0;
+    font-size: 22px;
+    text-align: right;
+    flex: 1;
+    outline: none;
+
+    &::placeholder {
+      color: #aaa;
+    }
+  }
+}

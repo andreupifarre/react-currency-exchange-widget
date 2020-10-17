@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CurrencyDropdown should render correctly 1`] = `
+Array [
+  <div
+    className="currency-dropdown"
+  >
+    <span
+      className="currency-dropdown__button"
+      onClick={[Function]}
+    >
+      
+    </span>
+    <ul
+      className="currency-dropdown__list"
+    />
+  </div>,
+]
+`;

@@ -1,0 +1,96 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Exchanger should render correctly 1`] = `
+Array [
+  <div
+    className="exchanger"
+  >
+    <div
+      className="exchanger__row"
+    >
+      <ExchangerRow
+        alt={true}
+        amount=""
+        autoFocus={true}
+        balance="10"
+        currencies={
+          Array [
+            Object {
+              "balance": "10",
+              "code": "GBP",
+              "sign": "£",
+            },
+            Object {
+              "balance": "0",
+              "code": "EUR",
+              "sign": "€",
+            },
+            Object {
+              "balance": "0",
+              "code": "USD",
+              "sign": "$",
+            },
+          ]
+        }
+        currency="GBP"
+        info=""
+        onAmountChange={[Function]}
+        onCurrencyChange={[Function]}
+        sign="£"
+      />
+    </div>
+    <div
+      className="exchanger__bar"
+    >
+      <ExchangerBar
+        fromSign="£"
+        onSwap={[Function]}
+        rate={1.102125}
+        toSign="€"
+      />
+    </div>
+    <div
+      className="exchanger__row"
+    >
+      <ExchangerRow
+        alt={false}
+        amount=""
+        autoFocus={false}
+        balance="0"
+        currencies={
+          Array [
+            Object {
+              "balance": "10",
+              "code": "GBP",
+              "sign": "£",
+            },
+            Object {
+              "balance": "0",
+              "code": "EUR",
+              "sign": "€",
+            },
+            Object {
+              "balance": "0",
+              "code": "USD",
+              "sign": "$",
+            },
+          ]
+        }
+        currency="EUR"
+        info=""
+        onAmountChange={[Function]}
+        onCurrencyChange={[Function]}
+        sign="€"
+      />
+    </div>
+    <button
+      className="exchanger__submit-button"
+      disabled={true}
+      onClick={[Function]}
+      type="button"
+    >
+      Exchange
+    </button>
+  </div>,
+]
+`;

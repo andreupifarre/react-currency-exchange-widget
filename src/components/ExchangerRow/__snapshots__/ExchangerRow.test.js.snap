@@ -1,0 +1,44 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ExchangerRow should render correctly 1`] = `
+Array [
+  <div
+    className="exchanger-row"
+  >
+    <div
+      className="exchanger-row__line"
+    >
+      <CurrencyDropdown
+        currencies={Array []}
+        currency=""
+        onCurrencyChange={[Function]}
+      />
+      <input
+        autoComplete="off"
+        autoFocus={false}
+        className="exchanger-row__amount"
+        onChange={[Function]}
+        placeholder="0"
+        type="number"
+        value=""
+      />
+    </div>
+    <div
+      className="exchanger-row__line"
+    >
+      <span
+        className="exchanger-row__balance"
+      >
+        Balance: 
+        
+        
+      </span>
+      <span
+        className="exchanger-row__fee"
+      >
+        
+      </span>
+    </div>
+  </div>,
+]
+`;
